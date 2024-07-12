@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#D6D6D6;
+    color: #333;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width:98%;
+}
+
+.logo {
+    height: 55px;
+    border-radius: 25px;
+}
+
+
+
+nav ul li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: #2C2B30;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 25px;
+    border: #000000 1px solid;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.News p{
+    text-align: center;
+    font-size:50px;
+    text-decoration: underline;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.news-item {
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.news-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-item p{
+    text-align: center;
+}
